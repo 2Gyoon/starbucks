@@ -363,6 +363,7 @@ header .badges .badge img{
 .notice .notice-line .inner__left .swiper-container{
   height: 62px; /* .inner__left에 align-itmes: center을 주어 기본 값인stretch가 사라져 높이가 사라지므로 높이 설정해주어야함*/
   flex-grow: 1; /* 최대한 늘어나게 하기 위해서 */
+  overflow: hidden;
 }
 .notice .notice-line .inner__left .swiper-container .swiper-slide{
   height: 62px;
